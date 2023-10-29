@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace API.Entities
+namespace API.Controllers
 {
-    public class ProductBrand : BaseEntity
+    public class AccountController : BaseApiController
     {
-        public string Name { get; set; }
+        
     }
 }

@@ -9,3 +9,5 @@ dotnet dev-certs https
 AutoMapper.Extensions.Microsoft.DependencyInjection
 Microsoft.AspNetCore.Authentication.JwtBearer
 Microsoft.EntityFrameworkCore.Design
+
+dotnet new classlib -o Core

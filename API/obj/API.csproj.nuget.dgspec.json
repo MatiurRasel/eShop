@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "H:\\GITHUB\\eShop\\API\\API.csproj": {}
+    "F:\\All Work Merged\\GITHUB\\eShop\\API\\API.csproj": {}
   },
   "projects": {
-    "H:\\GITHUB\\eShop\\API\\API.csproj": {
+    "F:\\All Work Merged\\GITHUB\\eShop\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\GITHUB\\eShop\\API\\API.csproj",
+        "projectUniqueName": "F:\\All Work Merged\\GITHUB\\eShop\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "H:\\GITHUB\\eShop\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Matiur Rasel\\.nuget\\packages\\",
-        "outputPath": "H:\\GITHUB\\eShop\\API\\obj\\",
+        "projectPath": "F:\\All Work Merged\\GITHUB\\eShop\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Matiur-Rasel\\.nuget\\packages\\",
+        "outputPath": "F:\\All Work Merged\\GITHUB\\eShop\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Matiur Rasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Matiur-Rasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

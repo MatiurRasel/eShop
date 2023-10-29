@@ -1,0 +1,9 @@
+dotnet new classlib -o Infrastructure
+
+Microsoft.AspNetCore.Identity
+Microsoft.EntityFrameworkCore.Sqlite
+Microsoft.IdentityModel.Tokens
+Npgsql.EntityFrameworkCore.PostgreSQL
+StackExchange.Redis
+Stripe.net
+System.IdentityModel.Tokens.Jwt

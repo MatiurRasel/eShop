@@ -1,0 +1,3 @@
+dotnet new classlib -o Core
+
+Microsoft.AspNetCore.Identity.EntityFrameworkCore
