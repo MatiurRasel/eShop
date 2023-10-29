@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\All Work Merged\\GITHUB\\eShop\\Infrastructure\\Infrastructure.csproj": {}
+    "H:\\GITHUB\\eShop\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "F:\\All Work Merged\\GITHUB\\eShop\\Core\\Core.csproj": {
+    "H:\\GITHUB\\eShop\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\All Work Merged\\GITHUB\\eShop\\Core\\Core.csproj",
+        "projectUniqueName": "H:\\GITHUB\\eShop\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "F:\\All Work Merged\\GITHUB\\eShop\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Matiur-Rasel\\.nuget\\packages\\",
-        "outputPath": "F:\\All Work Merged\\GITHUB\\eShop\\Core\\obj\\",
+        "projectPath": "H:\\GITHUB\\eShop\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Matiur Rasel\\.nuget\\packages\\",
+        "outputPath": "H:\\GITHUB\\eShop\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Matiur-Rasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Matiur Rasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,24 +64,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\All Work Merged\\GITHUB\\eShop\\Infrastructure\\Infrastructure.csproj": {
+    "H:\\GITHUB\\eShop\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\All Work Merged\\GITHUB\\eShop\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "H:\\GITHUB\\eShop\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "F:\\All Work Merged\\GITHUB\\eShop\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Matiur-Rasel\\.nuget\\packages\\",
-        "outputPath": "F:\\All Work Merged\\GITHUB\\eShop\\Infrastructure\\obj\\",
+        "projectPath": "H:\\GITHUB\\eShop\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Matiur Rasel\\.nuget\\packages\\",
+        "outputPath": "H:\\GITHUB\\eShop\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Matiur-Rasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Matiur Rasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,8 +95,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\All Work Merged\\GITHUB\\eShop\\Core\\Core.csproj": {
-                "projectPath": "F:\\All Work Merged\\GITHUB\\eShop\\Core\\Core.csproj"
+              "H:\\GITHUB\\eShop\\Core\\Core.csproj": {
+                "projectPath": "H:\\GITHUB\\eShop\\Core\\Core.csproj"
               }
             }
           }
@@ -156,7 +156,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

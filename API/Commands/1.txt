@@ -11,3 +11,8 @@ Microsoft.AspNetCore.Authentication.JwtBearer
 Microsoft.EntityFrameworkCore.Design
 
 dotnet new classlib -o Core
+
+dotnet add reference ../Infrastructure/Infrastructure.csproj
+
+
+docker run --name postgres -e POSTGRES_PASSWORD=postgrespsw -p 5432:5432 -d postgres:latest

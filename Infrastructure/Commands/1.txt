@@ -7,3 +7,5 @@ Npgsql.EntityFrameworkCore.PostgreSQL
 StackExchange.Redis
 Stripe.net
 System.IdentityModel.Tokens.Jwt
+
+dotnet add reference ../Core/Core.csproj
