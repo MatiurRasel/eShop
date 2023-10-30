@@ -894,7 +894,8 @@
       },
       "Core/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.11"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.11",
+          "Microsoft.Extensions.Identity.Stores": "7.0.11"
         },
         "runtime": {
           "Core.dll": {}
@@ -904,6 +905,7 @@
         "dependencies": {
           "Core": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.11",
           "Microsoft.IdentityModel.Tokens": "7.0.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.11",

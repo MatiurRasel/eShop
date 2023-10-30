@@ -7,5 +7,11 @@ Npgsql.EntityFrameworkCore.PostgreSQL
 StackExchange.Redis
 Stripe.net
 System.IdentityModel.Tokens.Jwt
+Microsoft.AspNetCore.Identity.EntityFrameworkCore
 
 dotnet add reference ../Core/Core.csproj
+
+
+PS F:\All Work Merged\GITHUB\eShop> dotnet ef migrations add IdentityInitial -p Infrastructure -s API -o Identity/Migrations -c AppIdentityDbContext    
+
+F:\All Work Merged\GITHUB\eShop>dotnet ef migrations add IdentityInitialData -p Infrastructure -s API -o Data/Migrations -c StoreContext  

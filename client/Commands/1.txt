@@ -1,0 +1,10 @@
+npm install @angular/cdk
+npm install @stripe/stripe-js
+npm install bootstrap
+npm install bootswatch
+npm install cuid   
+npm install font-awesome
+npm install ngx-bootstrap
+npm install ngx-spinner
+npm install ngx-toastr
+npm install xng-breadcrumb

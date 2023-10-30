@@ -1381,7 +1381,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.11"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.11",
+          "Microsoft.Extensions.Identity.Stores": "7.0.11"
         },
         "compile": {
           "bin/placeholder/Core.dll": {}
@@ -3112,6 +3113,7 @@
     "net7.0": [
       "Core >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 7.0.11",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.11",
       "Microsoft.IdentityModel.Tokens >= 7.0.1",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 7.0.11",
@@ -3121,23 +3123,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Matiur Rasel\\.nuget\\packages\\": {},
+    "C:\\Users\\Matiur-Rasel\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\GITHUB\\eShop\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "F:\\All Work Merged\\GITHUB\\eShop\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "H:\\GITHUB\\eShop\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Matiur Rasel\\.nuget\\packages\\",
-      "outputPath": "H:\\GITHUB\\eShop\\Infrastructure\\obj\\",
+      "projectPath": "F:\\All Work Merged\\GITHUB\\eShop\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Matiur-Rasel\\.nuget\\packages\\",
+      "outputPath": "F:\\All Work Merged\\GITHUB\\eShop\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Matiur Rasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Matiur-Rasel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3151,8 +3153,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "H:\\GITHUB\\eShop\\Core\\Core.csproj": {
-              "projectPath": "H:\\GITHUB\\eShop\\Core\\Core.csproj"
+            "F:\\All Work Merged\\GITHUB\\eShop\\Core\\Core.csproj": {
+              "projectPath": "F:\\All Work Merged\\GITHUB\\eShop\\Core\\Core.csproj"
             }
           }
         }
@@ -3170,6 +3172,10 @@
           "Microsoft.AspNetCore.Identity": {
             "target": "Package",
             "version": "[2.2.0, )"
+          },
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.11, )"
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
@@ -3212,7 +3218,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
