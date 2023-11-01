@@ -11,7 +11,14 @@ Microsoft.AspNetCore.Identity.EntityFrameworkCore
 
 dotnet add reference ../Core/Core.csproj
 
+dotnet tool install --global
+dotnet tool update --global dotnet-ef
 
 PS F:\All Work Merged\GITHUB\eShop> dotnet ef migrations add IdentityInitial -p Infrastructure -s API -o Identity/Migrations -c AppIdentityDbContext    
-
+dotnet ef database update -p Infrastructure -s API
 F:\All Work Merged\GITHUB\eShop>dotnet ef migrations add IdentityInitialData -p Infrastructure -s API -o Data/Migrations -c StoreContext  
+dotnet ef database update -p Infrastructure -s API
+
+docker run --name postgres -e POSTGRES_PASSWORD=postgrespsw -p 5432:5432 -d postgres:latest
+
+F:\All Work Merged\GITHUB\eShop\API\bin\Debug\net7.0

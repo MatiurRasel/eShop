@@ -16,3 +16,9 @@ dotnet add reference ../Infrastructure/Infrastructure.csproj
 
 
 docker run --name postgres -e POSTGRES_PASSWORD=postgrespsw -p 5432:5432 -d postgres:latest
+
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost; Port=5432; User Id=postgres; Password=postgrespsw; Database=eShop",
+    "IdentityConnection": "Server=localhost; Port=5432; User Id=postgres; Password=postgrespsw; Database=identity",
+    "Redis": "localhost"
+  },

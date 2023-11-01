@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "esrFHi5Fi9sEnT6DClcF1JwVjeA76k7RSNFZPsLh7nN4PVikK0HZjlD087nc9NeY4J8LaZTcBqSHBNpcKkRbrw==",
+  "dgSpecHash": "jS4nUuCzsQCX0wctT4HJ0XhMctfnIZzOn+JhGAwWZsvIBFz+uXk17JHLqwIwevZMVaT1crojs/+4NtBfPi8xxA==",
   "success": true,
-  "projectFilePath": "F:\\All Work Merged\\GITHUB\\eShop\\api\\API.csproj",
+  "projectFilePath": "F:\\All Work Merged\\GITHUB\\eShop\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matiur-Rasel\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Matiur-Rasel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

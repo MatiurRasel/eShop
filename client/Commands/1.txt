@@ -8,3 +8,36 @@ npm install ngx-bootstrap
 npm install ngx-spinner
 npm install ngx-toastr
 npm install xng-breadcrumb
+
+
+
+ng g m account/account --flat 
+ng g m account/account-routing --flat 
+ng g s account/account --skip-tests
+ng g c account/login --skip-tests
+ng g c account/register --skip-tests
+
+ng g m shared/shared --flat
+
+ng g c shared/components/text-input --skip-tests
+ng g c shared/components/stepper --skip-tests   
+
+ng g m basket/basket --flat 
+ng g m basket/basket-routing --flat 
+ng g s basket/basket --skip-tests
+ng g c basket --skip-tests 
+
+ng g c shared/basket-summary --skip-tests
+ng g c shared/order-totals --skip-tests
+ng g c shared/pager --skip-tests
+ng g c shared/paging-header --skip-tests
+
+ng g c checkout --skip-tests
+ng g m checkout/checkout --flat 
+ng g m checkout/checkout-routing --flat 
+ng g s checkout/checkout --skip-tests
+ng g c checkout/checkout-address --skip-tests
+ng g c checkout/checkout-delivery --skip-tests
+ng g c checkout/checkout-payment --skip-tests
+ng g c checkout/checkout-review --skip-tests
+ng g c checkout/checkout-success --skip-tests
